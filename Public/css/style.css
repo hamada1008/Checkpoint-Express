@@ -1,0 +1,90 @@
+body {
+  position: relative;
+}
+nav {
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  position: sticky;
+  border-radius: 20px;
+  box-shadow: 0 6px 10px 0 blue;
+  font-size: 1.4em;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:visited {
+  text-decoration: none;
+}
+
+.services ul {
+  list-style: none;
+}
+.services {
+  text-align: center;
+}
+
+.services li {
+  margin: 5px;
+  text-align: left;
+}
+
+.magic {
+  background-image: URL("https://img.freepik.com/free-photo/abstract-modern-background-stage-with-spotlight_118195-75.jpg?size=626&ext=jpg");
+  background-size: 50%;
+  width: 100%;
+  height: 65vh;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: space-around;
+  align-items: center;
+  filter: contrast(150%);
+  margin: 30px 0;
+}
+.magic h1 {
+  font-size: 3em;
+}
+.magic b {
+  font-size: 1.5em;
+}
+.welcome p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 70%;
+  margin: 20px auto;
+}
+
+footer {
+  position: absolute;
+  bottom: -9%;
+  right: 0;
+}
+
+.today {
+  position: absolute;
+  left: 0;
+  bottom: -12%;
+}
+
+.contact {
+  margin: 50px auto;
+  font-size: 1.3em;
+  height: 10vh;
+  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: dodgerblue;
+  border-radius: 30px;
+  color: white;
+  box-shadow: 0 4px 14px 0 grey;
+}
+.contact a {
+  color: rgb(82, 81, 80);
+  text-decoration: none;
+}

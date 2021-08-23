@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Abracadabra Home</title>
+</head>
+
+<body>
+    <%-include('navbar')-%>
+        <div class="today">
+            <p>It's <%= WeekDay %>
+            </p>
+        </div>
+        <div class=welcome>
+            <div class="magic">
+                <h1>Welcome to ABRACADABRA</h1>
+                <b>Where dreams come true</b>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eum impedit quas perspiciatis
+                eligendi quisquam blanditiis sunt a tempore aspernatur fugiat saepe aliquam cupiditate suscipit
+                doloremque eveniet quam facere ea quo? Aliquid, voluptate sed. Saepe, quasi praesentium, quidem sint
+                nulla nihil blanditiis velit voluptatem consectetur adipisci cumque quam illum eius!</p>
+        </div>
+
+        <%-include('footer')-%>
+
+</body>
+
+</html>
